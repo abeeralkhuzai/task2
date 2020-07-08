@@ -21,7 +21,7 @@ if (isset($_POST['backward'])){
     mysqli_query($conn,"INSERT INTO`control` SET `Backward` = 'B'");
 }
 
-if (isset($_POST['forward'])){
+if (isset($_POST['farward'])){
     echo "<p align=center>F</p> ";
     mysqli_query($conn,"INSERT `control` SET `Farward` = 'F'");
 }
